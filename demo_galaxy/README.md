@@ -1,25 +1,13 @@
-# Star Explorer
+# Galaxy
 
-This is an example game built with [Corona](http://www.coronalabs.com) to go along with the [Getting Started](https://docs.coronalabs.com/guide/programming/index.html) tutorial. The included source code goes along with the respective chapter.
+Es un ejemplo un juego desarrollado con [Corona](http://www.coronalabs.com) Obtenido del siguiente [Tutorial](https://docs.coronalabs.com/guide/programming/index.html). 
 
-## Chapters
+Este tutorial fue utilizado para realizar la presentación del uso del lenguaje Lua para la materia Teoría del Lenguaje de la UBA.
 
-* [Introduction to Corona](https://docs.coronalabs.com/guide/programming/intro/index.html)
-* [Chapter 1 — Creating an App](https://docs.coronalabs.com/guide/programming/01/index.html)
-* [Chapter 2 — Upward & Onward](https://docs.coronalabs.com/guide/programming/02/index.html)
-* [Chapter 3 — Bringing it to Life](https://docs.coronalabs.com/guide/programming/03/index.html)
-* [Chapter 4 — Creating Scenes](https://docs.coronalabs.com/guide/programming/04/index.html)
-* [Chapter 5 — Converting the Game to Composer](https://docs.coronalabs.com/guide/programming/05/index.html)
-* [Chapter 6 — Implementing High Scores](https://docs.coronalabs.com/guide/programming/06/index.html)
-* [Chapter 7 — Sounds and Music](https://docs.coronalabs.com/guide/programming/07/index.html)
-* [Chapter 8 — Deployment](https://docs.coronalabs.com/guide/programming/08/index.html)
+El tutorial consiste el la construcción de un juego que se trata de una nave que debe destruir una serie de asteroides que me mueven hacia ella. 
+Se puede mover de derecha  izquierda para esquivarlos y además puede disparar un rayo laser que los destruye.
 
-## Credits
-
-[Corona Labs](http://www.coronalabs.com) would like to extend its gratitude to:
-
-* Dr. Brian Burton ([burtonsmediagroup.com](http://www.burtonsmediagroup.com)) for his guidance, direction, and core tutorial content in creating this series. He has also created several [books](http://www.burtonsmediagroup.com/) about programming in Corona SDK.
-
-* Eric Matyas ([soundimage.org](http://www.soundimage.org)) for the game's music and sound effects. Eric offers numerous audio tracks and sound effects on his website, available on a donation basis.
-
-* ([Kenney](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning material.
+Para la presentación se hicieron dos modificaciones de funcionalidades que no estaban en el tutorial:
+* Se agregaron bonus que caen y si son atrapados aumentan el score del jugador
+* Cuando se llega a una cantidad de puntos se obtiene una vida
+* Se agregaron vidas que como los bonus caen y si son atrapadas aumentan la cantidad de vidas del jugador
